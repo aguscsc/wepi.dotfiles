@@ -9,6 +9,13 @@ These are my dotfiles for my Arch Hyprland setup.
 - Waybar (*Status bar*)
 - Wofi (*Menu*)
 - Mako (*Notification daemon*)
+## Apps
+
+- Mozc, ibus (*Japanese and spanish input*)
+- Ristretto (*Image viewer*)
+- OBS (*OBS lmao*)
+- Anki (*Flashcards*)
+
 # Hyprland setup
 
 ![setup](pics/git_setup.png)
@@ -24,9 +31,3 @@ Took it from Jvschulz on youtube, its the the artist's garden at eragny from cam
 
 ![Wallpaper](pics/desktop.jpg)
 
-## Apps
-
-- Mozc, ibus (*Japanese and spanish input*)
-- Ristretto (*Image viewer*)
-- OBS (*OBS lmao*)
-- Anki (*Flashcards*)
