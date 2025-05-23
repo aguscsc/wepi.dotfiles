@@ -1,6 +1,14 @@
 # wepi.dotfiles
-dot.files(arch)
+These are my dotfiles for my Arch Hyprland setup.
 
+## Tools I Use
+
+- Hyprland (Wayland window manager)
+- Neovim (Text editor)
+- Kitty (Terminal)
+- Waybar (Status bar)
+- Wofi (Menu)
+- Mako (Notification daemon)
 # Hyprland setup
 
 ![setup](pics/git_setup.png)
