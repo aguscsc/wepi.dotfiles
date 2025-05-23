@@ -15,6 +15,7 @@ These are my dotfiles for my Arch Hyprland setup.
 - Ristretto (*Image viewer*)
 - OBS (*OBS lmao*)
 - Anki (*Flashcards*)
+- Kicad (*board stuff*)
 
 # Hyprland setup
 
