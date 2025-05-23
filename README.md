@@ -12,6 +12,6 @@ i used vimplug for the setup of the gruvbox_theme and colors, you can also add c
 
 # Wallpaper
 
-Took it from Jvschulz from youtube, its the the artist's garden at eragny from camille pissarro, very nice to look at while studying and working.
+Took it from Jvschulz on youtube, its the the artist's garden at eragny from camille pissarro, very nice to look at while studying and working.
 
 ![Wallpaper](pics/desktop.jpg)
