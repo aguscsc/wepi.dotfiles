@@ -3,12 +3,12 @@ These are my dotfiles for my Arch Hyprland setup.
 
 ## Tools I Use
 
-- Hyprland (Wayland window manager)
-- Neovim (Text editor)
-- Kitty (Terminal)
-- Waybar (Status bar)
-- Wofi (Menu)
-- Mako (Notification daemon)
+- Hyprland (*Wayland window manager*)
+- Neovim (*Text editor*)
+- Kitty (*Terminal*)
+- Waybar (*Status bar*)
+- Wofi (*Menu*)
+- Mako (*Notification daemon*)
 # Hyprland setup
 
 ![setup](pics/git_setup.png)
@@ -23,3 +23,10 @@ i used vimplug for the setup of the gruvbox_theme and colors, you can also add c
 Took it from Jvschulz on youtube, its the the artist's garden at eragny from camille pissarro, very nice to look at while studying and working.
 
 ![Wallpaper](pics/desktop.jpg)
+
+## Apps
+
+- Mozc, ibus (*Japanese and spanish input*)
+- Ristretto (*Image viewer*)
+- OBS (*OBS lmao*)
+- Anki (*Flashcards*)
