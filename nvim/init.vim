@@ -142,15 +142,7 @@ augroup END
 " • concealcursor=nv → only apply conceal when in Normal/Visual modes
 set conceallevel=2
 set concealcursor=nv
-  call matchadd('InfoLine',  '^??.*')
-  call matchadd('SubSection',  '^#.*')
-endfunction
-
-augroup PrefixLineHighlight
-  autocmd!
-  autocmd BufEnter,BufReadPost *.txt,*.md call PrefixHighlights()
-augroup END
 "green, red and blue commands
 inoremap <silent> <A-1> <blue></blue><Esc>F>a
-inoremap <silent> <A-2> <red></green><Esc>F>a
+inoremap <silent> <A-2> <green></green><Esc>F>a
 inoremap <silent> <A-3> <red></red><Esc>F>a
