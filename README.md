@@ -9,6 +9,7 @@ These are my dotfiles for my Arch Hyprland setup.
 - Waybar (*Status bar*)
 - Wofi (*Menu*)
 - Mako (*Notification daemon*)
+- Ranfer (*File manager*)
 ## Apps
 
 - Mozc, ibus (*Japanese and spanish input*)
