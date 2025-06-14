@@ -1,1 +1,1 @@
-sudo pacman -S hypershot anki coolercontrol syncthing libreoffice ibus mako mozc ristretto obs-studio yay qalculate fcitx5 discord firefox fastfetch
+sudo pacman -S coolercontrol syncthing libreoffice ristretto obs-studio qalculate-gtk discord firefox fastfetch adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts fcitx5-im fcitx5-mozc fcitx5-anthy ranger waybar mako
