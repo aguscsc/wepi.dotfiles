@@ -20,6 +20,9 @@ These are my dotfiles for my Arch Hyprland setup.
 
 # Hyprland setup
 ![setup](pics/git_setup.png)
+
+# Waybar with ram & mic mute toggle
+calcurse + ranger + osaka
 ![setup](pics/tools_desktop.png)
 
 # Nvim colors
