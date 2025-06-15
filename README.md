@@ -19,7 +19,7 @@ These are my dotfiles for my Arch Hyprland setup.
 - Kicad (*board stuff*)
 
 # Hyprland setup
-
+![setup](pics/git_setup.png)
 ![setup](pics/tools_desktop.png)
 
 # Nvim colors
