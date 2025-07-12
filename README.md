@@ -9,7 +9,7 @@ These are my dotfiles for my Arch Hyprland setup.
 - Waybar (*Status bar*)
 - Wofi (*Menu*)
 - Mako (*Notification daemon*)
-- Ranfer (*File manager*)
+- Ranger (*File manager*)
 ## Apps
 
 - Mozc, ibus (*Japanese and spanish input*)
@@ -17,6 +17,7 @@ These are my dotfiles for my Arch Hyprland setup.
 - OBS (*OBS lmao*)
 - Anki (*Flashcards*)
 - Kicad (*board stuff*)
+- vivado 2022.2 (FPGA)
 
 # Hyprland setup
 ![setup](pics/git_setup.png)
