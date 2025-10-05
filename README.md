@@ -10,6 +10,8 @@ These are my dotfiles for my Arch Hyprland setup.
 - Wofi (*Menu*)
 - Mako (*Notification daemon*)
 - Ranger (*File manager*)
+- ncdu (*storage analyzer*)
+- system monitor
 ## Apps
 
 - Mozc, ibus (*Japanese and spanish input*)
