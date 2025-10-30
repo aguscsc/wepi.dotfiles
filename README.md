@@ -20,6 +20,9 @@ These are my dotfiles for my Arch Hyprland setup.
 - Anki (*Flashcards*)
 - Kicad (*board stuff*)
 - vivado 2022.2 (FPGA)
+- ltspice
+- ArduinoIDE
+- Qalculate!
 
 # Hyprland setup
 ![setup](pics/git_setup.png)
