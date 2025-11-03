@@ -1,5 +1,6 @@
+set number
 call plug#begin()
-
+Plug 'rust-lang/rust.vim'
 Plug 'ellisonleao/gruvbox.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'AntonVanAssche/md-headers.nvim'
@@ -146,3 +147,9 @@ set concealcursor=nv
 inoremap <silent> <A-1> <blue></blue><Esc>F>a
 inoremap <silent> <A-2> <green></green><Esc>F>a
 inoremap <silent> <A-3> <red></red><Esc>F>a
+
+
+if has('termguicolors')
+  set termguicolors
+endif
+colorscheme gruvbox
