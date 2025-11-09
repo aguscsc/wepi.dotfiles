@@ -1,0 +1,207 @@
+/* ================================ */
+/* Common CSS - Frutiger Aero Style */
+/* ================================ */
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  border-radius: 0;
+  border: none;
+  text-shadow: none;
+  transition: none;
+  box-shadow: none;
+}
+
+/* the whole window */
+window#waybar {
+  /* THIS IS THE GLASS EFFECT */
+  /* Light blue from your sky, with 30% opacity */
+  background: rgba(173, 216, 230, 0.3); 
+  
+  /* Dark text for readability on light glass */
+  color: #1E1E2E; 
+  
+  border-radius: 10px;
+  margin: 5px;
+  
+  /* Adds a subtle "glass edge" highlight */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+window#waybar.hidden {
+  opacity: 1;
+}
+
+#custom-rofi,
+#workspaces button,
+#workspaces button:hover,
+#workspaces button.visible,
+#workspaces button.visible:hover,
+#workspaces button.active,
+#workspaces button.active:hover,
+#workspaces button.urgent,
+#window,
+#tray,
+#disk,
+#cpu,
+#temperature,
+#temperature.critical,
+#backlight,
+#custom-memory,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#clock,
+#custom-mic {
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1E1E2E; /* Dark text */
+  background: none;
+  border: none;
+  padding: 5px 8px; /* Makes bar thicker */
+  margin: 0;
+  
+  /* Subtle shadow to "lift" text off the glass */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* ================================ */
+/* workspaces module         */
+/* ================================ */
+#workspaces {
+  margin: 0px;
+  padding: 0 5px;
+}
+
+#workspaces button {
+  color: #1E1E2E; /* Dark text */
+  padding: 0 10px;
+  margin: 0 3px;
+  min-width: 30px;
+  border-radius: 10px;
+}
+
+#workspaces button:hover {
+  /* A slightly more opaque "highlight" on hover */
+  background: rgba(255, 255, 255, 0.4); 
+}
+
+#workspaces button.visible {
+  background: none;
+}
+
+#workspaces button.visible:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* A glossy, "selected" button */
+#workspaces button.active {
+  background: #89b4fa; /* A nice light blue */
+  color: #1E1E2E;
+  text-shadow: none;
+}
+
+#workspaces button.active:hover {
+  background: #89b4fa;
+}
+
+#workspaces button.urgent {
+  background: #e06c75; /* Red */
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* ================================ */
+/* window               */
+/* ================================ */
+
+#window {
+  color: #d3869b; /* Muted pink */
+}
+
+/* ================================ */
+/* tray                */
+/* ================================ */
+
+#tray {
+  padding: 0 10px 0 10px;
+}
+
+/* ================================ */
+/* disk                */
+/* ================================ */
+
+#disk {
+  color: #ed5562; /* Red */
+}
+
+/* ================================ */
+/* cpu                 */
+/* ================================ */
+#cpu {
+  color: #fca076; /* Orange */
+}
+
+/* ================================ */
+/* temp                */
+/* ================================ */
+#temperature {
+  color: #fca076; /* Orange */
+}
+
+#temperature.critical {
+  color: #e06c75; /* Red */
+}
+
+/* ================================ */
+/* backlight              */
+/* ================================ */
+#backlight {
+  color: #fca076; /* Orange */
+}
+
+/* ================================ */
+/* memory               */
+/* ================================ */
+#custom-memory {
+  color: #39d3db; /* Dark cyan */
+}
+
+/* ================================ */
+/* pulseaudio             */
+/* ================================ */
+#pulseaudio {
+  color: #39d3db; /* Dark cyan */
+}
+
+#pulseaudio.muted {
+  color: #e06c75; /* Red */
+}
+
+/* ================================ */
+/* battery               */
+/* ================================ */
+#battery {
+  color: #689d6a; /* Green */
+}
+
+#battery.critical {
+  color: #e06c75; /* Red */
+}
+
+#battery.warning {
+  color: #fca076; /* Orange */
+}
+/* ================================ */
+/* clock               */
+/* ================================ */
+#clock {
+  color: #479e4a; /* Green */
+}
+#custom-mic {
+  font-size: 16px;
+  padding: 0px 8px;
+}
