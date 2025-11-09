@@ -35,7 +35,7 @@ I used nvchad for the setup
 # Wallpaper
 
 Found this fish photo on twitter from [here](https://x.com/fruttaeverdura2/status/1980250747670290483?s=20)
-![Wallpaper](pics/wallpapers/fish2.jpg)
+![Wallpaper](pics/wallpapers/fish2.png)
 
 # Hyprland setup (Full Gruvbox)
 ![setup](pics/git_setup.png)
