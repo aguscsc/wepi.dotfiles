@@ -1,39 +1,62 @@
+/* Frutiger Aero / Frosted Glass Theme */
+
+* {
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 16px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Black shadow for readability */
+}
+
 window {
-margin: 0px;
-border: 1px solid #928374;
-background-color: #282828;
+  margin: 5px;
+  /* Light blue from your sky, with 30% opacity */
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 10px;
+  /* Adds a subtle "glass edge" highlight */
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 #input {
-margin: 5px;
-border: none;
-color: #ebdbb2;
-background-color: #1d2021;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #1E1E2E; /* Dark text */
+  /* A slightly more opaque white for the input bar */
+  background-color: rgba(255, 255, 255, 0.4);
+  text-shadow: none; /* No shadow needed on a light bg */
 }
 
 #inner-box {
-margin: 5px;
-border: none;
-background-color: #282828;
+  margin: 5px;
+  border: none;
+  background-color: transparent; /* Let the window blur show through */
 }
 
 #outer-box {
-margin: 5px;
-border: none;
-background-color: #282828;
+  margin: 5px;
+  border: none;
+  background-color: transparent; /* Let the window blur show through */
 }
 
 #scroll {
-margin: 0px;
-border: none;
+  margin: 0px;
+  border: none;
+  background-color: transparent;
 }
 
 #text {
-margin: 5px;
-border: none;
-color: #ebdbb2;
+  margin: 5px;
+  border: none;
+  color: #1E1E2E; /* Dark text */
+}
+
+#entry {
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #entry:selected {
-background-color: #1d2021;
+  background-color: #89b4fa; /* Same light blue as active workspace */
+  color: #1E1E2E;
+  text-shadow: none; /* No shadow needed on a light bg */
 }
