@@ -1,0 +1,144 @@
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* --- Frutiger Aero / Frosted Glass Theme --- */
+
+/* Make the whole window transparent (so Hyprland can blur it) */
+#main-window {
+  background-color: transparent !important;
+  color: #1E1E2E !important; /* Default dark text */
+}
+
+/* Apply the "glass" background to the top UI bar */
+#navigator-toolbox {
+  background-color: rgba(173, 216, 230, 0.3) !important; /* Light blue glass */
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important; /* Black text shadow */
+}
+
+/* Make tabs & toolbar buttons have dark text */
+.tab-label,
+.toolbarbutton-label,
+#urlbar-input {
+  color: #1E1E2E !important;
+}
+
+/* Make toolbar icons dark */
+.toolbarbutton-icon {
+  fill: #1E1E2E !important;
+}
+
+/* Style the URL bar to be a light "glass" input */
+#urlbar-background {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 5px !important;
+}
+
+/* --- CRITICAL: Make Web Content Opaque (But NOT Sidebars) --- */
+
+/* 1. Make the main browser content area transparent by default */
+#browser-bottombox,
+#browser {
+  background-color: transparent !important;
+}
+
+/* 2. Now, *only* make the actual web content pane opaque white */
+.browser-stack,
+#browser-panes,
+.tab-content {
+  background-color: #FFFFFF !important; /* Opaque white */
+}
+
+/* --- Active/Inactive Tab Styling --- */
+
+/* 1. Style for the active, selected tab */
+.tab-background[selected="true"] {
+  background-color: #89b4fa !important; /* Light blue */
+  color: #1E1E2E !important; /* Dark text */
+}
+
+/* 2. Make sure active tab text is dark */
+.tab-label-container[selected="true"] .tab-label {
+  color: #1E1E2E !important;
+  text-shadow: none !important;
+}
+
+/* 3. Style for inactive tabs (faint glass) */
+.tab-background:not([selected="true"]) {
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Very faint white */
+}
+
+/* 4. Style for inactive tabs on hover */
+.tab-background:not([selected="true"]):hover {
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Faint white */
+}
+
+/* --- Sidebar Styling (Best Attempt) --- */
+
+#sidebar-box {
+  background-color: transparent !important;
+  color: #1E1E2E !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+}
+#sidebar-box richlistbox {
+  background: transparent !important;
+}
+.sidebar-place-row {
+  background: transparent !important;
+  color: #1E1E2E !important;
+}
+.sidebar-place-row[selected] {
+  background-color: #89b4fa !important;
+}
+.sidebar-place-row:hover:not([selected]) {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+#placesTree,
+#historyTree,
+#bookmarks-view,
+.sidebar-places-tree,
+tree,
+treechildren::-moz-tree-row,
+treechildren::-moz-tree-cell {
+  background-color: transparent !important;
+  color: #1E1E2E !important;
+  border: none !important;
+}
+treechildren::-moz-tree-cell-text {
+  color: #1E1E2E !important;
+}
+treechildren::-moz-tree-row(selected),
+treechildren::-moz-tree-cell(selected) {
+  background-color: #89b4fa !important;
+}
+treechildren::-moz-tree-row(hover),
+treechildren::-moz-tree-cell(hover) {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+
+/* 1. Make the popup menu's main view transparent */
+#all-tabs-menu-stream,
+#all-tabs-menu-stream .panel-subview-body,
+#all-tabs-menu-stream menupopup {
+  background-color: transparent !important;
+}
+
+/* 2. Make each individual menu item transparent */
+#all-tabs-menu-stream menuitem {
+  background-color: transparent !important;
+  color: #1E1E2E !important;
+}
+
+/* 3. Style the text inside the item */
+#all-tabs-menu-stream menuitem .menu-label {
+  color: #1E1E2E !important;
+}
+
+/* 4. Style the selected/hovered tab in the list */
+#all-tabs-menu-stream menuitem:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Faint white */
+}
