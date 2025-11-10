@@ -19,7 +19,6 @@ These are my dotfiles for my Arch Hyprland setup.
 - OBS (*OBS lmao*)
 - Anki (*Flashcards*)
 - Kicad (*board stuff*)
-- vivado 2022.2 (FPGA)
 - ltspice
 - ArduinoIDE
 - Qalculate!
