@@ -6,7 +6,7 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
- font_family      Fira
+ font_family      Fira 
  bold_font        auto
  italic_font      auto
  bold_italic_font auto
@@ -660,7 +660,7 @@ background_image_linear no
 #: When background image is scaled, whether linear interpolation
 #: should be used.
 
-dynamic_background_opacity no
+dynamic_background_opacity yes
 
 #: Allow changing of the background_opacity dynamically, using either
 #: keyboard shortcuts (increase_background_opacity and
@@ -755,7 +755,7 @@ mark3_foreground black
 #: Color for marks of type 3
 
 mark3_background #f274bc
-
+blurls = kitty
 #: Color for marks of type 1 (violet)
 
 #: }}}
@@ -1260,10 +1260,10 @@ map kitty_mod+escape kitty_shell window
 #: Open the kitty shell in a new window/tab/overlay/os_window to
 #: control kitty using commands.
 
-map kitty_mod+a>m    set_background_opacity +0.1
-map kitty_mod+a>l    set_background_opacity -0.1
-map kitty_mod+a>1    set_background_opacity 1
-map kitty_mod+a>d    set_background_opacity default
+map kitty_mod+o    set_background_opacity +0.1
+map kitty_mod+i    set_background_opacity -0.1
+map kitty_mod+j    set_background_opacity 1
+map kitty_mod+k    set_background_opacity default
 map kitty_mod+delete clear_terminal reset active
 
 #: You can create shortcuts to clear/reset the terminal. For example::
@@ -1313,3 +1313,4 @@ map kitty_mod+delete clear_terminal reset active
 #: }}}
 
 # }}}
+
