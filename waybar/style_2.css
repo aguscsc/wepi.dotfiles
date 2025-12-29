@@ -16,14 +16,14 @@
 window#waybar {
   /* THIS IS THE GLASS EFFECT */
   /* Light blue from your sky, with 30% opacity */
-  background: rgba(173, 216, 230, 0.3); 
-  
+  background: rgba(173, 216, 230, 0.3);
+
   /* Dark text for readability on light glass */
-  color: #1E1E2E; 
-  
+  color: #1E1E2E;
+
   border-radius: 10px;
   margin: 5px;
-  
+
   /* Adds a subtle "glass edge" highlight */
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -58,12 +58,14 @@ window#waybar.hidden {
   font-family: JetBrainsMono Nerd Font Propo;
   font-size: 16px;
   font-weight: 800;
-  color: #1E1E2E; /* Dark text */
+  color: #1E1E2E;
+  /* Dark text */
   background: none;
   border: none;
-  padding: 5px 8px; /* Makes bar thicker */
+  padding: 5px 8px;
+  /* Makes bar thicker */
   margin: 0;
-  
+
   /* Subtle shadow to "lift" text off the glass */
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -77,7 +79,8 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-  color: #1E1E2E; /* Dark text */
+  color: #1E1E2E;
+  /* Dark text */
   padding: 0 10px;
   margin: 0 3px;
   min-width: 30px;
@@ -86,7 +89,7 @@ window#waybar.hidden {
 
 #workspaces button:hover {
   /* A slightly more opaque "highlight" on hover */
-  background: rgba(255, 255, 255, 0.4); 
+  background: rgba(255, 255, 255, 0.4);
 }
 
 #workspaces button.visible {
@@ -99,7 +102,8 @@ window#waybar.hidden {
 
 /* A glossy, "selected" button */
 #workspaces button.active {
-  background: #89b4fa; /* A nice light blue */
+  background: #89b4fa;
+  /* A nice light blue */
   color: #1E1E2E;
   text-shadow: none;
 }
@@ -109,7 +113,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  background: #e06c75; /* Red */
+  background: #e06c75;
+  /* Red */
   color: #ffffff;
   text-shadow: none;
 }
@@ -119,7 +124,8 @@ window#waybar.hidden {
 /* ================================ */
 
 #window {
-  color: #d3869b; /* Muted pink */
+  color: rgba(0, 0, 0, 0.5);
+  /* Muted pink */
 }
 
 /* ================================ */
@@ -135,73 +141,89 @@ window#waybar.hidden {
 /* ================================ */
 
 #disk {
-  color: #ed5562; /* Red */
+  color: rgba(0, 0, 0, 0.5);
+  /* Red */
 }
 
 /* ================================ */
 /* cpu                 */
 /* ================================ */
 #cpu {
-  color: #fca076; /* Orange */
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  /* Orange */
 }
 
 /* ================================ */
 /* temp                */
 /* ================================ */
 #temperature {
-  color: #fca076; /* Orange */
+  color: rgba(0, 0, 0, 0.5);
+  /* Orange */
 }
 
 #temperature.critical {
-  color: #e06c75; /* Red */
+  color: #e06c75;
+  /* Red */
 }
 
 /* ================================ */
 /* backlight              */
 /* ================================ */
 #backlight {
-  color: #fca076; /* Orange */
+  color: rgba(0, 0, 0, 0.5);
+  /* Orange */
 }
 
 /* ================================ */
 /* memory               */
 /* ================================ */
 #custom-memory {
-  color: #39d3db; /* Dark cyan */
+  color: rgba(0, 0, 0, 0.5);
+  /* Dark cyan */
 }
 
 /* ================================ */
 /* pulseaudio             */
 /* ================================ */
 #pulseaudio {
-  color: #39d3db; /* Dark cyan */
+  color: rgba(0, 0, 0, 0.5);
+  /* Dark cyan */
 }
 
 #pulseaudio.muted {
-  color: #e06c75; /* Red */
+  color: rgba(0, 0, 0, 0.5);
+  /* Red */
 }
 
 /* ================================ */
 /* battery               */
 /* ================================ */
 #battery {
-  color: #689d6a; /* Green */
+  color: rgba(0, 0, 0, 0.5);
+  /* Green */
 }
 
 #battery.critical {
-  color: #e06c75; /* Red */
+  color: #e06c75;
+  /* Red */
 }
 
 #battery.warning {
-  color: #fca076; /* Orange */
+  color: #fca076;
+  /* Orange */
 }
+
 /* ================================ */
 /* clock               */
 /* ================================ */
 #clock {
-  color: #479e4a; /* Green */
+  color: rgba(0, 0, 0, 0.5);
+  /* Green */
 }
+
 #custom-mic {
   font-size: 16px;
   padding: 0px 8px;
 }
+
